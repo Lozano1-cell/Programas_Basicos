@@ -1,0 +1,7 @@
+# Programa 4: Cálculo de salario neto con descuento de impuesto
+salario_bruto = float(input("Ingresa tu salario bruto: "))
+impuesto = salario_bruto * 0.10  # Supone un 10% de impuesto
+
+salario_neto = salario_bruto - impuesto
+print(f"El impuesto retenido es: {impuesto}")
+print(f"Tu salario neto final es: {salario_neto}")
